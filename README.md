@@ -1,37 +1,126 @@
-## Welcome to GitHub Pages
+## Welcome to my personal coding style convensions statement.
 
-You can use the [editor on GitHub](https://github.com/t4g/personal-style-guide/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Abstract
+This resource acts in part as 1.) a declaration of my currently observed coding style convensions, 2.) to serve as a personal and single evolving authority of these convensions and 3.) be a public [for what's it worth] undertaking by myself to use these convensions (where mum lets me). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**NOTES**
+- This resource tries to follow RFC style and defer to offical IETF resources where possible.
+
+- _This document occasionally uses terms that appear in capital letters.
+   When the terms "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY"
+   appear capitalized, they are being used to indicate particular
+   requirements of this specification.  A discussion of the meanings of
+   the terms "MUST", "SHOULD", and "MAY" appears in [RFC-1123]; the
+   terms "MUST NOT" and "SHOULD NOT" are logical extensions of this
+   usage._
+
+### Sections
+
+#### Application Gateways and public services.
+
+1. [Development / Lifecycle]
+  1. Mocking
+  1. Developer sandboxing.
+  1. ~~EOL and Support patterns~~
+  1. ~~Phases:
+    1. Playground/Adhoc
+    1. Local development
+    1. Development -> Hotfix / Feature
+    1. QA
+    1. Release candidate 1/2
+    1. Released -> Deployment tag.~~
+1. [Endpoint URI path design guide]
+  1. [Intro: Semantic Path / URI topology]
+    1. [Recommended Semantic Path Templates]
+    1. Adding a versioning component -> Manifest busting -> Backwards compatibility.
+  1. [Lingistic / nomeniture convention]
+    1. Gender and plurality
+    1. ~~Localisation descussion~~
+1. [Protocals]
+  1. Current perferences when selected a service protocal.
+  1. ~~Authentication bible~~
+  1. HTTP[[S]]
+    1. Request verbs.
+    1. and Status codes.
+      1. Status codes as rule based routing.
+ 1. ~~[Architectual concerns]
+   1. [Hosting]
+     1. [within Geographics]
+     1. [within an active Development context]
+     1. [within a (horizontal) scale]
+     1. Working within a multiworker / multiwrite conherit data dependence.
+       1. Alternatives to Master / Master DB Replication.~~
+ 1. [Security]
+   1. Authentication methology templates.
+   1. Rate-limiting.
+   1. API User best practices.
+   1. API User within a Lifecycle context.
+   1. TLS / Encryption / Signing
+     1. Making a company identity authority
+       1. Using SMIME, HTTPS or Code Signing type CAs.
+       1. Using a ROOT (self-signed) CA and when to.
+       1. A few enterprise 3rd party CA alternatives
+     1. Code signing:
+       1. Developer certificates and commit signing.
+       1. Atomic and crypographical signed releases.
+     1. Forward end-point encryption. (MUST)
+     1. **Inter-Tier/Node** communication guidelines.
+     1. (howto:) Stateless crypographical signed sessions
+   1. Challenge based tokening.
+   1. Understanding PCI and scheduling stored user data.
+   1. Safe(r) Fault / Verbosity patterns.
+   1. Replay / Man-in-the-Middle / Service enumation overview.
+     1. "NOOCE"? -> Learning from UDP Sequence field.
+   1. ~~Proxying 3rd-party API dependencies in the development phases.~~
+   1. ~~[DoS hardening]
+     1. Passive ->
+       1. [Understanding: Deterministic verse non-deterministic end points.]
+       1. [Understanding: Payloads (and Caching) -> Userbound verse Servicebound.]
+       1. ! Defining a **tiered architecture.**
+         1. Tiering for a smart gateway layer
+         1. Tiering the process stack.
+         1. Methods for KV coherency 
+       1. Context derived path mapping.
+     1. Active ->
+      1. IP and TCP state filtering.
+      1. Heuristic triggered filtering
+1. ~~[Logging / Auditing]
+  1. Handling multi-host, OS-level events with services like syslogd.
+  1. Levaging exception feedback loops for defensive and robust services. (COMING SOON)~~
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/t4g/personal-style-guide/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+####  Full Copyright Statement
+
+>  **Copyright (C) Kyle Younge (2017).  All Rights Reserved.**
+
+>  This document and translations of it may be copied and furnished to
+   others, and derivative works that comment on or otherwise explain it
+   or assist in its implementation may be prepared, copied, published
+   and distributed, in whole or in part, without restriction of any
+   kind, provided that the above copyright notice and this paragraph are
+   included on all such copies and derivative works.  However, this
+   document itself may not be modified in any way, such as by removing
+   the copyright notice or disclaimers.
+
+>  **This document and the information contained herein is provided on an
+   "AS IS" basis and the authors, ie. Kyle Younge or contributors, ie others
+   DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+   BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION
+   HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF
+   MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.**
+
+#### Acknowledgement
+
+>  These guidelines are in part are an aggregation of every sensible developer and engineer I have worked with.
+   
+   **THANK YOU!**
+   
+>  Where I remember and can, all copy & pastes of other 3rd party resources will be itemised below:
+   
+   1.) Countless [IETF](https://www.ietf.org) :heart:
