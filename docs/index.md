@@ -2,6 +2,9 @@
 ---
 ## Personal style and design convension.
 
+### TEST 
+{{ site.data.global.docs_abstract }}
+
 ### Abstract
 This resource acts in part as 1.) a declaration of my currently observed coding style convensions, 2.) to serve as a personal and single evolving authority of these convensions and 3.) be a public [for what's it worth] undertaking by myself to use these convensions (where mum lets me). 
 
