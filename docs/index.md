@@ -3,10 +3,9 @@
 ## Personal style and design convension.
 
 ### TEST 
-{{ site.data.global.docs_abstract }}
 
 ### Abstract
-This resource acts in part as 1.) a declaration of my currently observed coding style convensions, 2.) to serve as a personal and single evolving authority of these convensions and 3.) be a public [for what's it worth] undertaking by myself to use these convensions (where mum lets me). 
+{{ site.data.global.docs_abstract }}
 
 > **NOTES**
 > > This resource tries to follow RFC style and defer to offical IETF resources where possible.
@@ -19,7 +18,7 @@ This resource acts in part as 1.) a declaration of my currently observed coding 
    terms **"MUST NOT"** and **"SHOULD NOT"** are logical extensions of this
    usage._
 
-### Sections
+## Sections
 
 ### Language specific conventions
 
@@ -45,7 +44,7 @@ This resource acts in part as 1.) a declaration of my currently observed coding 
 
 
 
-#### Applied : Application Program Interface. (RPC Gateway)
+### Applied : Application Program Interface. (RPC Gateway)
 
 1. ~~[Development / Lifecycle]()~~
 > 1. ~~[Mocking]()~~
@@ -65,21 +64,21 @@ This resource acts in part as 1.) a declaration of my currently observed coding 
 > 1. [Lingistic / nomeniture convention]()
 > > 1. [Gender and plurality](api-sg-genpla)
 > > 1. ~~Localisation descussion~~
-1. ~~:testtube:[Protocals]()~~
+1. ~~ :LIGHTING: [Protocals]()~~
 > 1. ~~Current preferences when selected a service protocal.~~
 > 1. ~~Authentication bible~~
 > 1. ~~HTTP[[S]]~~
 > > 1. ~~Request verbs.~~
 > > 1. ~~and Status codes.~~
 > > > 1. ~~Status codes as rule based routing.~~
-1. ~~:map:[Architectual concerns]()~~
+1. ~~ :MAP: [Architectual concerns]()~~
 > 1. ~~:computer:[Hosting]()~~
 > > 1. ~~[within Geographics]()~~
 > > 1. ~~[within an active Development context]()~~
 > > 1. ~~[within a (horizontal) scale]()~~
 > > 1. ~~Working within a multiworker / multiwrite conherit data dependence.~~
 > > > 1. ~~Alternatives to Master / Master DB Replication.~~
-1. ~~:ticket: [Security]()~~
+1. ~~:TICKET: [Security]()~~
 > 1. ~~Authentication methology templates.~~
 > 1. ~~Rate-limiting.~~
 > 1. ~~API User best practices.~~
@@ -148,4 +147,4 @@ This resource acts in part as 1.) a declaration of my currently observed coding 
    
 > Where I remember and can, all copy & pastes of other 3rd party resources will be itemised below:
    
-> > - Countless [IETF](https://www.ietf.org) :heart:
+> > - Countless [IETF](https://www.ietf.org) :HEART:
