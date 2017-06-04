@@ -18,6 +18,30 @@ This resource acts in part as 1.) a declaration of my currently observed coding 
 
 ### Sections
 
+### Language specific conventions
+
+#### PHP
+1. [Namespace naming](sections/lang/php/php.root#Namespace%20naming)
+1. [Class naming](sections/lang/php/php.root#Class%20naming)
+1. [Method naming](sections/lang/php/php.root#Method%20naming)
+1. [Attribute naming](sections/lang/php/php.root#Attribute%20naming)
+> 1. [Private prefix](sections/lang/php/php.root#Attribute%20naming)
+> 1. [Static prefix](sections/lang/php/php.root#Attribute%20naming)
+> 1. [Pointer/Reference prefix](sections/lang/php/php.root#Attribute%20naming)
+> 1. [Constant prefix](sections/lang/php/php.root#Attribute%20naming)
+
+#### ~~JS~~
+1. ~~[Namespace naming]()~~
+1. ~~[Class naming]()~~
+1. ~~[Method naming]()~~
+1. ~~[Attribute naming]()~~
+> 1. ~~[Private prefix]()~~
+> 1. ~~[Static prefix]()~~
+> 1. ~~[Pointer/Reference prefix]()~~
+> 1. ~~[Constant prefix]()~~
+
+
+
 #### Applied : Application Program Interface. (RPC Gateway)
 
 1. ~~[Development / Lifecycle]()~~
@@ -90,27 +114,7 @@ This resource acts in part as 1.) a declaration of my currently observed coding 
 > 1. ~~Handling multi-host, OS-level events with services like syslogd.~~
 > 1. ~~Levaging exception feedback loops for defensive and robust services. (COMING SOON)~~
 
-### Language specific conventions
 
-#### PHP
-1. [Namespace naming]()
-1. [Class naming]()
-1. [Method naming]()
-1. [Attribute naming]()
-> 1. [Private prefix]()
-> 1. [Static prefix]()
-> 1. [Pointer/Reference prefix]()
-> 1. [Constant prefix]()
-
-#### ~~JS~~
-1. ~~[Namespace naming]()~~
-1. ~~[Class naming]()~~
-1. ~~[Method naming]()~~
-1. ~~[Attribute naming]()~~
-> 1. ~~[Private prefix]()~~
-> 1. ~~[Static prefix]()~~
-> 1. ~~[Pointer/Reference prefix]()~~
-> 1. ~~[Constant prefix]()~~
 
 ### Support or Contact
 
